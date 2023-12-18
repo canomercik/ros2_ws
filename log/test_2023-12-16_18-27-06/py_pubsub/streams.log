@@ -1,0 +1,67 @@
+[0.722s] Invoking command in '/home/can/ros2_ws/src/py_pubsub': AMENT_PREFIX_PATH=/home/can/ros2_ws/install/py_pubsub:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/can/ros2_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/can/ros2_ws/build/py_pubsub/.pytest_cache PYTHONPATH=/home/can/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.422s] [1m============================= test session starts ==============================[0m
+[1.422s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[1.428s] cachedir: /home/can/ros2_ws/build/py_pubsub/.pytest_cache
+[1.428s] rootdir: /home/can/ros2_ws/src/py_pubsub
+[1.428s] plugins: launch-testing-0.10.10, ament-flake8-0.9.8, ament-copyright-0.9.8, launch-testing-ros-0.11.7, ament-pep257-0.9.8, ament-lint-0.9.8, ament-xmllint-0.9.8, colcon-core-0.15.1, cov-2.8.1
+[1.510s] [1mcollecting ... [0m[1m
+[1.510s] collected 3 items                                                              [0m
+[1.511s] 
+[1.531s] test/test_copyright.py [32m.[0m[36m                                                 [ 33%][0m
+[1.712s] test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+[1.746s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[1.746s] 
+[1.746s] =================================== FAILURES ===================================
+[1.746s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.746s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.746s] [1m    assert rc == 0, \[0m
+[1.747s] [1m[31mE   AssertionError: Found 4 code style errors / warnings:[0m
+[1.747s] [1m[31mE     ./setup.py:23:9: W191 indentation contains tabs[0m
+[1.747s] [1m[31mE     ./setup.py:23:9: E101 indentation contains mixed spaces and tabs[0m
+[1.747s] [1m[31mE     ./setup.py:24:9: W191 indentation contains tabs[0m
+[1.747s] [1m[31mE     ./setup.py:24:9: E101 indentation contains mixed spaces and tabs[0m
+[1.747s] [1m[31mE   assert 1 == 0[0m
+[1.747s] ----------------------------- Captured stdout call -----------------------------
+[1.747s] [33m=============================== warnings summary ===============================[0m
+[1.747s] 
+[1.747s] ./setup.py:23:9: W191 indentation contains tabs
+[1.747s]         	'talker = py_pubsub.publisher_member_function:main',
+[1.748s]         ^
+[1.748s] 
+[1.748s] ./setup.py:23:9: E101 indentation contains mixed spaces and tabs
+[1.748s]         	'talker = py_pubsub.publisher_member_function:main',
+[1.748s]         ^
+[1.748s] 
+[1.748s] ./setup.py:24:9: W191 indentation contains tabs
+[1.748s]         	'listener = py_pubsub.subscriber_member_function:main',
+[1.748s]         ^
+[1.748s] 
+[1.748s] ./setup.py:24:9: E101 indentation contains mixed spaces and tabs
+[1.748s]         	'listener = py_pubsub.subscriber_member_function:main',
+[1.748s]         ^
+[1.748s] 
+[1.748s] 2     E101 indentation contains mixed spaces and tabs
+[1.748s] 2     W191 indentation contains tabs
+[1.748s] 
+[1.749s] 7 files checked
+[1.749s] 4 errors
+[1.749s] 
+[1.749s] 'E'-type errors: 2
+[1.749s] 'W'-type errors: 2
+[1.749s] 
+[1.749s] Checked files:
+[1.749s] 
+[1.749s] * ./setup.py
+[1.749s] * ./py_pubsub/__init__.py
+[1.749s] * ./py_pubsub/publisher_member_function.py
+[1.749s] * ./py_pubsub/subscriber_member_function.py
+[1.749s] * ./test/test_flake8.py
+[1.749s] * ./test/test_pep257.py
+[1.749s] * ./test/test_copyright.py
+[1.749s] ------- generated xml file: /home/can/ros2_ws/build/py_pubsub/pytest.xml -------
+[1.750s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[1.750s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[1.750s] 
+[1.750s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[1.750s] [31m[1m================ 1 failed, 2 passed, 1 warnings in 0.33 seconds ================[0m
+[1.816s] Invoked command in '/home/can/ros2_ws/src/py_pubsub' returned '1': AMENT_PREFIX_PATH=/home/can/ros2_ws/install/py_pubsub:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/can/ros2_ws/build/py_pubsub/pytest.xml --junit-prefix=py_pubsub -o cache_dir=/home/can/ros2_ws/build/py_pubsub/.pytest_cache PYTHONPATH=/home/can/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

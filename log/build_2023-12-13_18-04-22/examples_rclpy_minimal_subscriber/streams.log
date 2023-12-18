@@ -1,0 +1,27 @@
+[3.952s] Invoking command in '/home/can/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/can/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/can/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data
+[5.707s] running develop
+[5.707s] running egg_info
+[5.707s] creating examples_rclpy_minimal_subscriber.egg-info
+[5.707s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[5.708s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[5.708s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[5.708s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[5.708s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[5.708s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.708s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.708s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.708s] running build_ext
+[5.708s] Creating /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/site.py
+[5.709s] Creating /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[5.709s] Installing subscriber_lambda script to /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.709s] Installing subscriber_member_function script to /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.709s] Installing subscriber_old_school script to /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.709s] 
+[5.709s] Installed /home/can/ros2_ws/build/examples_rclpy_minimal_subscriber
+[5.709s] running install_data
+[5.709s] creating /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[5.709s] creating /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[5.710s] creating /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[5.710s] copying resource/examples_rclpy_minimal_subscriber -> /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[5.710s] copying package.xml -> /home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[7.835s] Invoked command in '/home/can/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/can/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/can/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data

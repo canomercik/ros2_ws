@@ -1,0 +1,38 @@
+[1.721s] Invoking command in '/home/can/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/py_pubsub:/home/can/ros2_ws/install/py_srvcli:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/can/ros2_ws/build/my_package -- -j16 -l16
+[2.043s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.043s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.043s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.043s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.043s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/can/ros2_ws/src/my_package/include>
+[2.043s] -- Configured cppcheck exclude dirs and/or files: 
+[2.044s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.044s] -- Configured cpplint exclude dirs and/or files: 
+[2.044s] -- Added test 'lint_cmake' to check CMake code style
+[2.044s] -- Added test 'uncrustify' to check C / C++ code style
+[2.044s] -- Configured uncrustify additional arguments: 
+[2.044s] -- Added test 'xmllint' to check XML markup files
+[2.044s] -- Configuring done
+[2.044s] -- Generating done
+[2.044s] -- Build files have been written to: /home/can/ros2_ws/build/my_package
+[2.044s] [100%] Built target my_node
+[2.282s] Invoked command in '/home/can/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/py_pubsub:/home/can/ros2_ws/install/py_srvcli:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/can/ros2_ws/build/my_package -- -j16 -l16
+[2.851s] Invoking command in '/home/can/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/py_pubsub:/home/can/ros2_ws/install/py_srvcli:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/can/ros2_ws/build/my_package
+[2.876s] -- Install configuration: ""
+[2.876s] -- Up-to-date: /home/can/ros2_ws/install/my_package/lib/my_package/my_node
+[2.876s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.876s] -- Installing: /home/can/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.876s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.876s] -- Installing: /home/can/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.876s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[2.877s] -- Installing: /home/can/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.877s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[2.877s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[2.877s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.877s] -- Installing: /home/can/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.877s] -- Installing: /home/can/ros2_ws/install/my_package/share/my_package/package.dsv
+[2.877s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.877s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.877s] -- Up-to-date: /home/can/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.877s] -- Installing: /home/can/ros2_ws/install/my_package/share/my_package/package.xml
+[2.878s] Invoked command in '/home/can/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/py_pubsub:/home/can/ros2_ws/install/py_srvcli:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/can/ros2_ws/build/my_package

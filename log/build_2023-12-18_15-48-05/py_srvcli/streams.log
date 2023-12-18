@@ -1,0 +1,41 @@
+[0.721s] Invoking command in '/home/can/ros2_ws/src/py_srvcli': PYTHONPATH=/home/can/ros2_ws/build/py_srvcli/prefix_override:/home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/can/ros2_ws/build/py_srvcli/build install --record /home/can/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed
+[0.861s] running egg_info
+[0.862s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.862s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.862s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.864s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.886s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.886s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.887s] running build_py
+[0.887s] creating /home/can/ros2_ws/build/py_srvcli/build
+[0.887s] creating /home/can/ros2_ws/build/py_srvcli/build/lib
+[0.887s] creating /home/can/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.887s] copying py_srvcli/__init__.py -> /home/can/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.887s] copying py_srvcli/client_member_function.py -> /home/can/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.887s] copying py_srvcli/service_member_function.py -> /home/can/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.887s] running install
+[0.888s] running install_lib
+[0.888s] creating /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.888s] copying /home/can/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.888s] copying /home/can/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.888s] copying /home/can/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.889s] byte-compiling /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc
+[0.890s] byte-compiling /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[0.890s] byte-compiling /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[0.890s] running install_data
+[0.891s] creating /home/can/ros2_ws/install/py_srvcli/share/ament_index
+[0.891s] creating /home/can/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.891s] creating /home/can/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.891s] copying resource/py_srvcli -> /home/can/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.891s] copying package.xml -> /home/can/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.891s] running install_egg_info
+[0.892s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[0.892s] running install_scripts
+[0.903s] Installing client script to /home/can/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.903s] Installing service script to /home/can/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.903s] writing list of installed files to '/home/can/ros2_ws/build/py_srvcli/install.log'
+[0.915s] Invoked command in '/home/can/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/can/ros2_ws/build/py_srvcli/prefix_override:/home/can/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/can/ros2_ws/build/py_srvcli/build install --record /home/can/ros2_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed

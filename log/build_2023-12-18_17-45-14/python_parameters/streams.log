@@ -1,0 +1,21 @@
+[3.028s] Invoking command in '/home/can/ros2_ws/src/python_parameters': PYTHONPATH=/home/can/ros2_ws/build/python_parameters/prefix_override:/home/can/ros2_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/can/ros2_ws/build/python_parameters/build install --record /home/can/ros2_ws/build/python_parameters/install.log --install-scripts $base/lib/python_parameters --single-version-externally-managed
+[3.208s] running egg_info
+[3.209s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[3.209s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[3.209s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[3.209s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[3.209s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[3.238s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.240s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.240s] running build
+[3.240s] running build_py
+[3.240s] running install
+[3.240s] running install_lib
+[3.241s] running install_data
+[3.242s] running install_egg_info
+[3.244s] removing '/home/can/ros2_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info' (and everything under it)
+[3.244s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/can/ros2_ws/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info
+[3.244s] running install_scripts
+[3.259s] Installing minimal_param_node script to /home/can/ros2_ws/install/python_parameters/lib/python_parameters
+[3.259s] writing list of installed files to '/home/can/ros2_ws/build/python_parameters/install.log'
+[3.477s] Invoked command in '/home/can/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/can/ros2_ws/build/python_parameters/prefix_override:/home/can/ros2_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/can/ros2_ws/build/python_parameters/build install --record /home/can/ros2_ws/build/python_parameters/install.log --install-scripts $base/lib/python_parameters --single-version-externally-managed

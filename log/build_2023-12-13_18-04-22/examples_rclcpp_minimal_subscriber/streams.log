@@ -1,0 +1,87 @@
+[0.895s] Invoking command in '/home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/can/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[3.339s] -- The C compiler identification is GNU 9.4.0
+[3.339s] -- The CXX compiler identification is GNU 9.4.0
+[3.339s] -- Check for working C compiler: /usr/bin/cc
+[3.340s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.340s] -- Detecting C compiler ABI info
+[3.340s] -- Detecting C compiler ABI info - done
+[3.340s] -- Detecting C compile features
+[3.340s] -- Detecting C compile features - done
+[3.340s] -- Check for working CXX compiler: /usr/bin/c++
+[3.340s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.340s] -- Detecting CXX compiler ABI info
+[3.340s] -- Detecting CXX compiler ABI info - done
+[3.340s] -- Detecting CXX compile features
+[3.340s] -- Detecting CXX compile features - done
+[3.340s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.340s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.340s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.340s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.340s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.340s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.340s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.340s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.340s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.341s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.341s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.341s] -- Looking for pthread.h
+[3.341s] -- Looking for pthread.h - found
+[3.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.341s] -- Looking for pthread_create in pthreads
+[3.341s] -- Looking for pthread_create in pthreads - not found
+[3.341s] -- Looking for pthread_create in pthread
+[3.341s] -- Looking for pthread_create in pthread - found
+[3.341s] -- Found Threads: TRUE  
+[3.341s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.341s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.341s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.341s] -- Configured cppcheck include dirs: 
+[3.341s] -- Configured cppcheck exclude dirs and/or files: 
+[3.341s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.341s] -- Configured cpplint exclude dirs and/or files: 
+[3.341s] -- Added test 'lint_cmake' to check CMake code style
+[3.341s] -- Added test 'uncrustify' to check C / C++ code style
+[3.341s] -- Configured uncrustify additional arguments: 
+[3.341s] -- Added test 'xmllint' to check XML markup files
+[3.341s] -- Configuring done
+[3.342s] -- Generating done
+[3.342s] -- Build files have been written to: /home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[3.365s] Invoked command in '/home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/can/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[3.367s] Invoking command in '/home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[3.428s] [35m[1mScanning dependencies of target subscriber_not_composable[0m
+[3.429s] [35m[1mScanning dependencies of target subscriber_lambda[0m
+[3.444s] [35m[1mScanning dependencies of target subscriber_member_function[0m
+[3.545s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[3.545s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[3.567s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[11.737s] [ 66%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[11.905s] [ 83%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[11.941s] [ 83%] Built target subscriber_lambda
+[12.091s] [ 83%] Built target subscriber_not_composable
+[12.177s] [100%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[12.370s] [100%] Built target subscriber_member_function
+[12.382s] Invoked command in '/home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[12.410s] Invoking command in '/home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[12.416s] -- Install configuration: ""
+[12.416s] -- Execute custom install script
+[12.417s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[12.425s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[12.434s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[12.442s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[12.450s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[12.457s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[12.464s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[12.473s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[12.481s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[12.489s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[12.497s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[12.505s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[12.513s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[12.520s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[12.529s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[12.537s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[12.544s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[12.552s] -- Symlinking: /home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[12.624s] Invoked command in '/home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/can/ros2_ws/build/examples_rclcpp_minimal_subscriber

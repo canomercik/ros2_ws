@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:44 (add_library):
+  The target name "polygon_plugins/src/polygon_plugins.cpp" is reserved or
+  not valid for certain CMake features, such as generator expressions, and
+  may result in undefined behavior.
+
+
